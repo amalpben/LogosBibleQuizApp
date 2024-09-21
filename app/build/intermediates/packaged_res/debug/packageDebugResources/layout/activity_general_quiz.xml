@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GeneralQuizActivity"
+    android:background="@drawable/app_bg_jesus_birth">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/homeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:backgroundTint="@color/transparent"
+            android:src="@drawable/icon_home" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/aerospace_bold"
+            android:text="GENERAL QUIZ"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/cardLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout2">
+
+        <LinearLayout
+            android:id="@+id/dailyQuizBtn"
+            style="@style/GenQuizCardLayout"
+            android:layout_marginEnd="12dp">
+
+            <TextView
+                style="@style/GenQuizCardLayoutTxt"
+                android:text="DAILY QUIZ" />
+
+            <LinearLayout style="@style/GenQuizCardLayout2Sub">
+
+                <LinearLayout style="@style/GenQuizCardLayout2">
+
+                    <ImageView
+                        style="@style/GenQuizCardLayout2Img"
+                        android:src="@drawable/icon_calender" />
+
+                    <TextView
+                        android:id="@+id/dailyQuizDate"
+                        style="@style/GenQuizCardLayout2Txt"
+                        android:text="NA" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/GenQuizCardLayout2">
+
+                    <ImageView
+                        style="@style/GenQuizCardLayout2Img"
+                        android:src="@drawable/icon_pen" />
+
+                    <TextView
+                        android:id="@+id/dailyQuizScore"
+                        style="@style/GenQuizCardLayout2Txt"
+                        android:text="0 / 0" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/GenQuizCardLayout2">
+
+                    <ImageView
+                        style="@style/GenQuizCardLayout2Img"
+                        android:src="@drawable/fire" />
+
+                    <TextView
+                        android:id="@+id/dailyQuizStreak"
+                        style="@style/GenQuizCardLayout2Txt"
+                        android:text="0 Days" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/timerLayout">
+                <ImageView
+                    style="@style/timerIcon"/>
+                <TextView
+                    android:id="@+id/timerTextDaily"
+                    style="@style/TimerTextStyle"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/dailyQuizSyl"
+                style="@style/GenQuizCardLayoutTxtSyl"
+                android:layout_height="wrap_content"
+                android:text="- - -" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/weeklyQuizBtn"
+            style="@style/GenQuizCardLayout"
+            android:clickable="true"
+            android:layout_marginEnd="8dp">
+
+            <TextView
+                style="@style/GenQuizCardLayoutTxt"
+                android:text="WEEKLY QUIZ" />
+
+            <LinearLayout style="@style/GenQuizCardLayout2Sub">
+
+                <LinearLayout style="@style/GenQuizCardLayout2">
+
+                    <ImageView
+                        style="@style/GenQuizCardLayout2Img"
+                        android:src="@drawable/icon_calender" />
+
+                    <TextView
+                        android:id="@+id/weeklyQuizDate"
+                        style="@style/GenQuizCardLayout2Txt"
+                        android:text="NA" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/GenQuizCardLayout2">
+
+                    <ImageView
+                        style="@style/GenQuizCardLayout2Img"
+                        android:src="@drawable/icon_pen" />
+
+                    <TextView
+                        android:id="@+id/weeklyQuizScore"
+                        style="@style/GenQuizCardLayout2Txt"
+                        android:text="0 / 0" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/GenQuizCardLayout2">
+
+                    <ImageView
+                        style="@style/GenQuizCardLayout2Img"
+                        android:src="@drawable/fire" />
+
+                    <TextView
+                        android:id="@+id/weeklyQuizStreak"
+                        style="@style/GenQuizCardLayout2Txt"
+                        android:text="0 Weeks" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                style="@style/timerLayout">
+                <ImageView
+                    style="@style/timerIcon"/>
+                <TextView
+                    android:id="@+id/timerTextWeekly"
+                    style="@style/TimerTextStyle"/>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/weeklyQuizSyl"
+                style="@style/GenQuizCardLayoutTxtSyl"
+                android:layout_height="wrap_content"
+                android:text="- - -" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/monthlyQuizBtn"
+            android:clickable="true"
+            style="@style/GenQuizCardLayout"
+            android:layout_marginEnd="8dp">
+
+            <TextView
+                style="@style/GenQuizCardLayoutTxt"
+                android:text="MONTHLY QUIZ" />
+
+            <LinearLayout style="@style/GenQuizCardLayout2Sub">
+
+                <LinearLayout style="@style/GenQuizCardLayout2">
+
+                    <ImageView
+                        style="@style/GenQuizCardLayout2Img"
+                        android:src="@drawable/icon_calender" />
+
+                    <TextView
+                        android:id="@+id/monthlyQuizDate"
+                        style="@style/GenQuizCardLayout2Txt"
+                        android:text="NA" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/GenQuizCardLayout2">
+
+                    <ImageView
+                        style="@style/GenQuizCardLayout2Img"
+                        android:src="@drawable/icon_pen" />
+
+                    <TextView
+                        android:id="@+id/monthlyQuizScore"
+                        style="@style/GenQuizCardLayout2Txt"
+                        android:text="0 / 0" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/GenQuizCardLayout2">
+
+                    <ImageView
+                        style="@style/GenQuizCardLayout2Img"
+                        android:src="@drawable/fire" />
+
+                    <TextView
+                        android:id="@+id/monthlyQuizStreak"
+                        style="@style/GenQuizCardLayout2Txt"
+                        android:text="0 Months" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                style="@style/timerLayout">
+                <ImageView
+                    style="@style/timerIcon"/>
+                <TextView
+                    android:id="@+id/timerTextMonthly"
+                    style="@style/TimerTextStyle"/>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/monthlyQuizSyl"
+                style="@style/GenQuizCardLayoutTxtSyl"
+                android:layout_height="wrap_content"
+                android:text="- - -" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/app_bg_jesus_birth"
+        android:visibility="gone">
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:progressTint="@color/white"
+            android:backgroundTint="@color/white"
+            android:indeterminate="true"/>
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

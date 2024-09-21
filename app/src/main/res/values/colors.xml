@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary">#36252D</color>
+    <color name="secondary">#6B3D4A</color>
+    <color name="tertiary">#8F5663</color>
+    <color name="redLite">#BF0000</color>
+    <color name="greenLite">#006F02</color>
+    <color name="yellow">#FFD700</color>
+    <color name="quizBtnColor">#6A2B00</color>
+    <color name="transparent">#00000000</color>
+    <color name="transPrimary">#C423171B</color>
+
+    <color name="thumb_checked_color">#693C49</color>
+    <color name="thumb_unchecked_color">#C98A9C</color>
+    <color name="track_checked_color">#CA8B9D</color>
+    <color name="track_unchecked_color">#FFC3D4</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+</resources>

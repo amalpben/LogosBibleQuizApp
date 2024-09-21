@@ -1,0 +1,3 @@
+in.ecsolution.logosquiz.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

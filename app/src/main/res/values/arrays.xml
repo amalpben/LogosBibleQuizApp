@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="diocese">
+        <item>"Mananthavady Diocese"</item>
+        <item>"Alleppey Diocese"</item>
+        <item>"Bathery Diocese"</item>
+        <item>"Belthangady Diocese"</item>
+    <item>"Bhadravathi Diocese"</item>
+    <item>"Calicut Diocese"</item>
+    <item>"Changanacherry Diocese"</item>
+    <item>"Cochin Diocese"</item>
+    <item>"Ernakulam-Angamaly Diocese"</item>
+    <item>"Gurgaon Diocese"</item>
+    <item>"Idukki Diocese"</item>
+    <item>"Irinjalakuda Diocese"</item>
+    <item>"Kannur Diocese"</item>
+    <item>"Kanjirapally Diocese"</item>
+    <item>"Khadki Diocese"</item>
+    <item>"Kottapuram Diocese"</item>
+    <item>"Kottayam Diocese"</item>
+    <item>"Kothamangalam Diocese"</item>
+    <item>"Mandya Diocese"</item>
+    <item>"Marthandom Diocese"</item>
+    <item>"Mavelikara Diocese"</item>
+    <item>"Muvattupuzha Diocese"</item>
+    <item>"Neyyattinkara Diocese"</item>
+    <item>"Palai Diocese"</item>
+    <item>"Palghat Diocese"</item>
+    <item>"Parassala Diocese"</item>
+    <item>"Pathanamthitta Diocese"</item>
+    <item>"Punalur Diocese"</item>
+    <item>"Puthur Diocese"</item>
+    <item>"Quilon Diocese"</item>
+    <item>"Ramanathaapuram Diocese"</item>
+    <item>"Sultanpet Diocese"</item>
+    <item>"Tellicherry Diocese"</item>
+    <item>"Thamarassery Diocese"</item>
+    <item>"Thuckalay Diocese"</item>
+    <item>"Trivandrum Diocese"</item>
+    <item>"Trichur Diocese"</item>
+    <item>"Tiruvalla Diocese"</item>
+    <item>"Trivandrum-Malankara Diocese"</item>
+    <item>"Verapoly Diocese"</item>
+    <item>"Vijayapuram Diocese"</item>
+    <item>"Other Diocese"</item>
+    </string-array>
+    <string-array name="category">
+        <item>"Group A (0–10 Age)"</item>
+        <item>"Group B (11–15 Age)"</item>
+        <item>"Group C (16–30 Age)"</item>
+        <item>"Group D (31–50 Age)"</item>
+        <item>"Group E (51–64 Age)"</item>
+        <item>"Group F (65+ Age)"</item>
+    </string-array>
+</resources>

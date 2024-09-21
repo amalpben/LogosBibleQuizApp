@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="QuestionTextViewStyle">
+        <item name="android:fontFamily">@font/mal_med</item>
+        <item name="android:textSize">17dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+    <style name="QuestionOptions">
+        <item name="android:fontFamily">@font/mal_semi</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/secondary</item>
+        <item name="backgroundTint">@color/transparent</item>
+    </style>
+    <style name="homeButtonMain">
+        <item name="android:fontFamily">@font/aerospace_bold</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/bg_white_all_round</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/tertiary</item>
+        <item name="android:paddingHorizontal">12dp</item>
+        <item name="android:paddingVertical">8dp</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="homeTextInfo">
+        <item name="android:background">@drawable/bg_white_all_round</item>
+        <item name="fontFamily">@font/aerospace_bold</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingVertical">10dp</item>
+        <item name="android:paddingHorizontal">16dp</item>
+        <item name="android:textColor">@color/tertiary</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+    </style>
+    <style name="syllabusImageView">
+        <item name="android:layout_width">130dp</item>
+        <item name="android:layout_height">83dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:src">@drawable/big_book</item>
+    </style>
+    <style name="syllabusTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:fontFamily">@font/mal_semi</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="syllabusLinearLayout">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingHorizontal">20dp</item>
+        <item name="android:paddingVertical">32dp</item>
+        <item name="android:background">@drawable/bg_semiblack_card</item>
+        <item name="android:layout_marginHorizontal">16dp</item>
+    </style>
+    <style name="optionLayoutStyle">
+        <item name="android:layout_marginVertical">4dp</item>
+        <item name="android:paddingHorizontal">18dp</item>
+        <item name="android:gravity">top</item>
+        <item name="android:paddingVertical">8dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/white</item>
+    </style>
+    <style name="GenQuizCardLayout">
+        <item name="android:layout_width">210dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@drawable/bg_semiblack_card</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingVertical">28dp</item>
+        <item name="android:paddingHorizontal">16dp</item>
+        <item name="android:layout_marginVertical">32dp</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="GenQuizCardLayoutTxt">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:fontFamily">@font/aerospace_bold</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+    <style name="GenQuizCardLayoutTxtSyl">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/secondary</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:fontFamily">@font/mal_semi</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/bg_white_all_round</item>
+        <item name="android:paddingVertical">4dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+    <style name="GenQuizCardLayout2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/bg_white_all_round</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+    <style name="GenQuizCardLayout2Sub">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="GenQuizCardLayout2Img">
+        <item name="android:layout_width">32dp</item>
+        <item name="android:layout_height">32dp</item>
+    </style>
+    <style name="GenQuizCardLayout2Txt">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/aerospace_bold</item>
+        <item name="android:paddingHorizontal">8dp</item>
+        <item name="android:textColor">@color/secondary</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+    <style name="timerLayout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginBottom">4dp</item>
+    </style>
+    <style name="timerIcon">
+        <item name="android:layout_width">24dp</item>
+        <item name="android:layout_height">24dp</item>
+        <item name="android:src">@drawable/icon_timer</item>
+    </style>
+    <style name="TimerTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/aerospace_bold</item>
+        <item name="android:text">--:--:--</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+</resources>

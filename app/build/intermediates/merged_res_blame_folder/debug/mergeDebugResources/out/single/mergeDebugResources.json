@@ -1,0 +1,454 @@
+[
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/font_blackwood_castle.ttf.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/font/blackwood_castle.ttf"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_mark_board.png.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/mark_board.png"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_info_shot_7.png.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/info_shot_7.png"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/mipmap-mdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_two_star.png.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/two_star.png"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_jesus_birth_bg.jpg.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/jesus_birth_bg.jpg"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_old_scroll.png.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/old_scroll.png"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/mipmap-xhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/font_mal_med.ttf.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/font/mal_med.ttf"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/color_thumb_color.xml.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/color/thumb_color.xml"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_wood_bg.jpg.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/wood_bg.jpg"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_star_2.png.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/star_2.png"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/xml_data_extraction_rules.xml.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_icon_settings.xml.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/icon_settings.xml"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_bg_white_all_round.xml.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/bg_white_all_round.xml"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_fire.png.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/fire.png"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_info_shot_6.png.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/info_shot_6.png"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_icon_sound_on.png.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/icon_sound_on.png"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_star_3.png.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/star_3.png"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/font_roboto_medium.ttf.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/font/roboto_medium.ttf"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_ch_btn.png.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/ch_btn.png"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_icon_toggle_on.xml.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/icon_toggle_on.xml"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_info_shot_5.png.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/info_shot_5.png"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/xml_backup_rules.xml.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_icon_home.xml.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/icon_home.xml"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_exit_button.png.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/exit_button.png"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_bg_gradient.xml.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/bg_gradient.xml"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_zero_star.png.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/zero_star.png"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_info_shot_8.png.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/info_shot_8.png"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/font_latobold.ttf.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/font/latobold.ttf"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/raw_correct_ans.mp3.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/raw/correct_ans.mp3"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_syllabus.png.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/syllabus.png"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_bg_semiblack_card.xml.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/bg_semiblack_card.xml"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_info.png.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/info.png"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/color_track_color.xml.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/color/track_color.xml"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_plank_home.png.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/plank_home.png"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_bg_white_right_round.xml.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/bg_white_right_round.xml"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/mipmap-hdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/font_mal_semi.ttf.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/font/mal_semi.ttf"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_icon_help.xml.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/icon_help.xml"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_bg_app_main.jpg.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/bg_app_main.jpg"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_star_1.png.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/star_1.png"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_icon_pen.png.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/icon_pen.png"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_img.png.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/img.png"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_timer_background.xml.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/timer_background.xml"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/layout_activity_quiz.xml.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/layout/activity_quiz.xml"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_old_paper.jpg.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/old_paper.jpg"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/layout_activity_home_page.xml.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/layout/activity_home_page.xml"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_icon_star.xml.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/icon_star.xml"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/raw_home_page_music.mp3.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/raw/home_page_music.mp3"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_sound_on.png.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/sound_on.png"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_bg_white_no_stroke.xml.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/bg_white_no_stroke.xml"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_big_book.png.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/big_book.png"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/font_mal_reg.ttf.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/font/mal_reg.ttf"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_icon_toggle_off.xml.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/icon_toggle_off.xml"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_info_shot_3.png.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/info_shot_3.png"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_icon_sound_off.png.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/icon_sound_off.png"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/raw_wrong_ans.mp3.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/raw/wrong_ans.mp3"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/layout_activity_logos_book_show.xml.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/layout/activity_logos_book_show.xml"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_icon_app.png.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/icon_app.png"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_icon_calender.png.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/icon_calender.png"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/font_roboto_bold.ttf.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/font/roboto_bold.ttf"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_update.png.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/update.png"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/raw_game_over.json.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/raw/game_over.json"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_app_bg_jesus_birth.jpg.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/app_bg_jesus_birth.jpg"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/raw_score_music.m4a.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/raw/score_music.m4a"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/raw_popper.json.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/raw/popper.json"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/layout_activity_general_quiz.xml.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/layout/activity_general_quiz.xml"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/layout_activity_show_score.xml.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/layout/activity_show_score.xml"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/raw_timer.m4a.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/raw/timer.m4a"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/layout_activity_login.xml.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/layout/activity_login.xml"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_info_shot_9.png.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/info_shot_9.png"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_bg_white_settings.xml.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/bg_white_settings.xml"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_icon_undo.xml.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/icon_undo.xml"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_info_shot_2.png.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/info_shot_2.png"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/font_aerospace_bold.ttf.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/font/aerospace_bold.ttf"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_sound_off.png.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/sound_off.png"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/layout_activity_help.xml.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/layout/activity_help.xml"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/font_led_display.ttf.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/font/led_display.ttf"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/layout_activity_syllabus.xml.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/layout/activity_syllabus.xml"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_star.png.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/star.png"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_icon_eye.png.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/icon_eye.png"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_one_star.png.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/one_star.png"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_icon_close_color.png.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/icon_close_color.png"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_three_star.png.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/three_star.png"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/raw_click_sound.mp3.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/raw/click_sound.mp3"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_icon_logout.xml.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/icon_logout.xml"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_info_shot_1.png.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/info_shot_1.png"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_star_0.png.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/star_0.png"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/layout_activity_logos_chapter_show.xml.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/layout/activity_logos_chapter_show.xml"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_info_shot_4.png.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/info_shot_4.png"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_profile.png.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/profile.png"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_icon_info.xml.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/icon_info.xml"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/font_roboto_regular.ttf.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/font/roboto_regular.ttf"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/font_mal_bold.ttf.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/font/mal_bold.ttf"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_low_poly_grid_haikei.png.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/low_poly_grid_haikei.png"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_play.png.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/play.png"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/drawable_icon_timer.xml.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/drawable/icon_timer.xml"
+    },
+    {
+        "merged": "in.ecsolution.logosquiz.app-debug-38:/layout_activity_profile.xml.flat",
+        "source": "in.ecsolution.logosquiz.app-main-40:/layout/activity_profile.xml"
+    }
+]

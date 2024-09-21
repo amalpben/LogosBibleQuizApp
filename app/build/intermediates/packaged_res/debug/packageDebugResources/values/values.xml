@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="category">
+        <item>"Group A (0–10 Age)"</item>
+        <item>"Group B (11–15 Age)"</item>
+        <item>"Group C (16–30 Age)"</item>
+        <item>"Group D (31–50 Age)"</item>
+        <item>"Group E (51–64 Age)"</item>
+        <item>"Group F (65+ Age)"</item>
+    </string-array>
+    <string-array name="diocese">
+        <item>"Mananthavady Diocese"</item>
+        <item>"Alleppey Diocese"</item>
+        <item>"Bathery Diocese"</item>
+        <item>"Belthangady Diocese"</item>
+    <item>"Bhadravathi Diocese"</item>
+    <item>"Calicut Diocese"</item>
+    <item>"Changanacherry Diocese"</item>
+    <item>"Cochin Diocese"</item>
+    <item>"Ernakulam-Angamaly Diocese"</item>
+    <item>"Gurgaon Diocese"</item>
+    <item>"Idukki Diocese"</item>
+    <item>"Irinjalakuda Diocese"</item>
+    <item>"Kannur Diocese"</item>
+    <item>"Kanjirapally Diocese"</item>
+    <item>"Khadki Diocese"</item>
+    <item>"Kottapuram Diocese"</item>
+    <item>"Kottayam Diocese"</item>
+    <item>"Kothamangalam Diocese"</item>
+    <item>"Mandya Diocese"</item>
+    <item>"Marthandom Diocese"</item>
+    <item>"Mavelikara Diocese"</item>
+    <item>"Muvattupuzha Diocese"</item>
+    <item>"Neyyattinkara Diocese"</item>
+    <item>"Palai Diocese"</item>
+    <item>"Palghat Diocese"</item>
+    <item>"Parassala Diocese"</item>
+    <item>"Pathanamthitta Diocese"</item>
+    <item>"Punalur Diocese"</item>
+    <item>"Puthur Diocese"</item>
+    <item>"Quilon Diocese"</item>
+    <item>"Ramanathaapuram Diocese"</item>
+    <item>"Sultanpet Diocese"</item>
+    <item>"Tellicherry Diocese"</item>
+    <item>"Thamarassery Diocese"</item>
+    <item>"Thuckalay Diocese"</item>
+    <item>"Trivandrum Diocese"</item>
+    <item>"Trichur Diocese"</item>
+    <item>"Tiruvalla Diocese"</item>
+    <item>"Trivandrum-Malankara Diocese"</item>
+    <item>"Verapoly Diocese"</item>
+    <item>"Vijayapuram Diocese"</item>
+    <item>"Other Diocese"</item>
+    </string-array>
+    <color name="black">#FF000000</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="greenLite">#006F02</color>
+    <color name="ic_launcher_background">#C2F4FD</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="primary">#36252D</color>
+    <color name="quizBtnColor">#6A2B00</color>
+    <color name="redLite">#BF0000</color>
+    <color name="secondary">#6B3D4A</color>
+    <color name="tertiary">#8F5663</color>
+    <color name="thumb_checked_color">#693C49</color>
+    <color name="thumb_unchecked_color">#C98A9C</color>
+    <color name="track_checked_color">#CA8B9D</color>
+    <color name="track_unchecked_color">#FFC3D4</color>
+    <color name="transPrimary">#C423171B</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#FFD700</color>
+    <string name="app_name">Logos Bible Quiz</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="infoText">
+        <![CDATA[
+
+        ]]>
+    </string>
+    <string name="infoTxtP1">\"Logos Bible Quiz\" is a Quiz Program organized every year by KCBC\'s Bible Commission. The Logos Bible Quiz App an Interactive Quiz that tests your Biblical knowledge.
+        \nEach level is named after the bible chapters, that is available for the upcoming Logos Quiz. Each question carries 1 mark and there
+         is no negative marks. You can attend any chapter at any time. There is no limits to number of attempts.
+        \nThis app is the only one on the Play Store focusing specifically on the Malayalam Bible quiz, offering unique value to users.
+    </string>
+    <string name="infoTxtP2">
+        This app is developed and maintained by ecSolution
+    </string>
+    <string name="infoTxtP3">
+        Amal Pullamkannapallil
+        \nJomit Mangalam
+    </string>
+    <string name="infoTxtP4">
+        Athul Mamachan
+        \nFr Jose Kalappura
+    </string>
+    <string name="infoTxtP5">
+        We don\'t share your information to any third parties. Whatever we collect stays in your phone
+    </string>
+    <string name="infoTxtP6">
+        ecSolution
+        \n16/177D, Kattayad po., Ozhukkanmoola
+        \nPhone: +91 894 378 7501
+        \nEmail: info@ecsolution.in
+    </string>
+    <string name="infoTxtP7">
+        There is a lot of time and effort behind this app development. And this app is free to use. You can support us by your small donations.
+        \nUPI:ecsolution@cnrb (Jomit M P)
+    </string>
+    <string name="profile_description">\nThankyou for using Logos Quiz App \'24. Prepare for Logos Quiz and share this app with others.\nKindly share your valuable feedback to us.\n</string>
+    <string name="title_activity_logos_chapter_show">LogosChapterShow</string>
+    <style name="Base.Theme.LogosQuiz" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="GenQuizCardLayout">
+        <item name="android:layout_width">210dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@drawable/bg_semiblack_card</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingVertical">28dp</item>
+        <item name="android:paddingHorizontal">16dp</item>
+        <item name="android:layout_marginVertical">32dp</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="GenQuizCardLayout2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/bg_white_all_round</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+    <style name="GenQuizCardLayout2Img">
+        <item name="android:layout_width">32dp</item>
+        <item name="android:layout_height">32dp</item>
+    </style>
+    <style name="GenQuizCardLayout2Sub">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="GenQuizCardLayout2Txt">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/aerospace_bold</item>
+        <item name="android:paddingHorizontal">8dp</item>
+        <item name="android:textColor">@color/secondary</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+    <style name="GenQuizCardLayoutTxt">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:fontFamily">@font/aerospace_bold</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+    <style name="GenQuizCardLayoutTxtSyl">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/secondary</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:fontFamily">@font/mal_semi</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/bg_white_all_round</item>
+        <item name="android:paddingVertical">4dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+    <style name="QuestionOptions">
+        <item name="android:fontFamily">@font/mal_semi</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/secondary</item>
+        <item name="backgroundTint">@color/transparent</item>
+    </style>
+    <style name="QuestionTextViewStyle">
+        <item name="android:fontFamily">@font/mal_med</item>
+        <item name="android:textSize">17dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+    <style name="Theme.LogosQuiz" parent="Base.Theme.LogosQuiz"/>
+    <style name="Theme.LogosQuiz.Fullscreen" parent="Theme.LogosQuiz">
+        <item name="android:actionBarStyle">@style/Widget.Theme.LogosQuiz.ActionBar.Fullscreen
+        </item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+    </style>
+    <style name="ThemeOverlay.LogosQuiz25.FullscreenContainer" parent="">
+        <item name="fullscreenBackgroundColor">@color/light_blue_600</item>
+        <item name="fullscreenTextColor">@color/light_blue_A200</item>
+    </style>
+    <style name="TimerTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/aerospace_bold</item>
+        <item name="android:text">--:--:--</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+    <style name="Widget.Theme.LogosQuiz.ActionBar.Fullscreen" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+    <style name="Widget.Theme.LogosQuiz.ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+    </style>
+    <style name="homeButtonMain">
+        <item name="android:fontFamily">@font/aerospace_bold</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/bg_white_all_round</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/tertiary</item>
+        <item name="android:paddingHorizontal">12dp</item>
+        <item name="android:paddingVertical">8dp</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="homeTextInfo">
+        <item name="android:background">@drawable/bg_white_all_round</item>
+        <item name="fontFamily">@font/aerospace_bold</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingVertical">10dp</item>
+        <item name="android:paddingHorizontal">16dp</item>
+        <item name="android:textColor">@color/tertiary</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+    </style>
+    <style name="optionLayoutStyle">
+        <item name="android:layout_marginVertical">4dp</item>
+        <item name="android:paddingHorizontal">18dp</item>
+        <item name="android:gravity">top</item>
+        <item name="android:paddingVertical">8dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/white</item>
+    </style>
+    <style name="syllabusImageView">
+        <item name="android:layout_width">130dp</item>
+        <item name="android:layout_height">83dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:src">@drawable/big_book</item>
+    </style>
+    <style name="syllabusLinearLayout">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingHorizontal">20dp</item>
+        <item name="android:paddingVertical">32dp</item>
+        <item name="android:background">@drawable/bg_semiblack_card</item>
+        <item name="android:layout_marginHorizontal">16dp</item>
+    </style>
+    <style name="syllabusTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:fontFamily">@font/mal_semi</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="timerIcon">
+        <item name="android:layout_width">24dp</item>
+        <item name="android:layout_height">24dp</item>
+        <item name="android:src">@drawable/icon_timer</item>
+    </style>
+    <style name="timerLayout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginBottom">4dp</item>
+    </style>
+    <declare-styleable name="FullscreenAttrs">
+        <attr format="color" name="fullscreenBackgroundColor"/>
+        <attr format="color" name="fullscreenTextColor"/>
+    </declare-styleable>
+</resources>

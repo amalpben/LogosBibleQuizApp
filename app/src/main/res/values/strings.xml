@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Logos Bible Quiz</string>
+    <string name="infoText">
+        <![CDATA[
+
+        ]]>
+    </string>
+    <string name="profile_description">\nThankyou for using Logos Quiz App \'24. Prepare for Logos Quiz and share this app with others.\nKindly share your valuable feedback to us.\n</string>
+    <string name="title_activity_logos_chapter_show">LogosChapterShow</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="infoTxtP1">\"Logos Bible Quiz\" is a Quiz Program organized every year by KCBC\'s Bible Commission. The Logos Bible Quiz App an Interactive Quiz that tests your Biblical knowledge.
+        \nEach level is named after the bible chapters, that is available for the upcoming Logos Quiz. Each question carries 1 mark and there
+         is no negative marks. You can attend any chapter at any time. There is no limits to number of attempts.
+        \nThis app is the only one on the Play Store focusing specifically on the Malayalam Bible quiz, offering unique value to users.
+    </string>
+    <string name="infoTxtP2">
+        This app is developed and maintained by ecSolution
+    </string>
+    <string name="infoTxtP3">
+        Amal Pullamkannapallil
+        \nJomit Mangalam
+    </string>
+    <string name="infoTxtP4">
+        Athul Mamachan
+        \nFr Jose Kalappura
+    </string>
+    <string name="infoTxtP5">
+        We don\'t share your information to any third parties. Whatever we collect stays in your phone
+    </string>
+    <string name="infoTxtP6">
+        ecSolution
+        \n16/177D, Kattayad po., Ozhukkanmoola
+        \nPhone: +91 894 378 7501
+        \nEmail: info@ecsolution.in
+    </string>
+    <string name="infoTxtP7">
+        There is a lot of time and effort behind this app development. And this app is free to use. You can support us by your small donations.
+        \nUPI:ecsolution@cnrb (Jomit M P)
+    </string>
+</resources>
