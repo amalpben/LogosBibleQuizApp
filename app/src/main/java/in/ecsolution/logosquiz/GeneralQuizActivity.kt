@@ -31,7 +31,6 @@ class GeneralQuizActivity : AppCompatActivity() {
     private lateinit var btnDailyQuiz:LinearLayout
     private lateinit var btnWeeklyQuiz:LinearLayout
     private lateinit var btnMonthlyQuiz:LinearLayout
-
     private lateinit var weeklyQuizTimer:TextView
     private lateinit var monthlyQuizTimer:TextView
     private lateinit var clickSound: MediaPlayer
@@ -301,7 +300,7 @@ class GeneralQuizActivity : AppCompatActivity() {
             weeklyQuizScoreTxt.text="$score / $total"
             if(isPlayed==0){
                 startCountdownTimerWeekly()
-                btnDailyQuiz.setOnClickListener{
+                btnWeeklyQuiz.setOnClickListener{
                     if(dbHelper.getWeeklyQuizQuestCount(date)){
                         GlobalValues.isActivityTransition=false
                         val intent = Intent(this, QuizActivity::class.java)
@@ -345,7 +344,7 @@ class GeneralQuizActivity : AppCompatActivity() {
                 }
             }
             else{
-                timerTxtDaily.text="completed"
+                weeklyQuizTimer.text="completed"
             }
         }
     }
@@ -372,7 +371,7 @@ class GeneralQuizActivity : AppCompatActivity() {
             monthlyQuizScoreTxt.text="$score / $total"
             if(isPlayed==0){
                 startMonthlyTimer()
-                btnDailyQuiz.setOnClickListener{
+                btnMonthlyQuiz.setOnClickListener{
                     if(dbHelper.getMonthlyQuizQuestCount(date)){
                         GlobalValues.isActivityTransition=false
                         val intent = Intent(this, QuizActivity::class.java)
@@ -416,7 +415,7 @@ class GeneralQuizActivity : AppCompatActivity() {
                 }
             }
             else{
-                timerTxtDaily.text="completed"
+                monthlyQuizTimer.text="completed"
             }
         }
     }
