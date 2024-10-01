@@ -1,5 +1,0 @@
-in.ecsolution.logosquiz.test.app-core-1.6.1-0 C:\Users\Amalp\.gradle\caches\transforms-4\6138b03650a2eea1c70bc67bd271015c\transformed\core-1.6.1\res
-in.ecsolution.logosquiz.test.app-androidTest-1 D:\app\LogosQuizMegaRelease\app\build\generated\res\resValues\androidTest\debug
-in.ecsolution.logosquiz.test.app-mergeDebugAndroidTestResources-2 D:\app\LogosQuizMegaRelease\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
-in.ecsolution.logosquiz.test.app-mergeDebugAndroidTestResources-3 D:\app\LogosQuizMegaRelease\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
-in.ecsolution.logosquiz.test.app-debugAndroidTest-4 D:\app\LogosQuizMegaRelease\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

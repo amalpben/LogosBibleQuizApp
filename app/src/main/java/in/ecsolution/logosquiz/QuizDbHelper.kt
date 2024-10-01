@@ -129,35 +129,6 @@ class QuizDbHelper private constructor(context: Context) : SQLiteOpenHelper(cont
         }
         db.execSQL("UPDATE marks SET mark=?,star=? WHERE chapter=? AND book=?", arrayOf(mark.toString(),star.toString(),chapter.toString(),book.toString()))
     }
-    //get total marks chapter
-//    fun getTotalMarksForChapter(chapter: Int,book: Int):Pair<Int,Int>{
-//        val db=readableDatabase
-//        val cursor=db.rawQuery("SELECT mark, total FROM marks WHERE chapter=? AND book=? ORDER BY mark DESC LIMIT 1", arrayOf(chapter.toString(),book.toString()))
-//        var total=0
-//        var mark=0
-//        if(cursor.moveToFirst()){
-//            total=cursor.getInt(1)
-//            mark=cursor.getInt(0)
-//        }
-//        cursor.close()
-//        return Pair(total,mark)
-//    }
-    //get total marks book
-//    fun getTotalMarksForBook(book: Int):List<Triple<Int,Int,Int>>{
-//        val db=readableDatabase
-//        val results = mutableListOf<Triple<Int, Int, Int>>()
-//        val cursor=db.rawQuery("SELECT chapter,MAX(mark) as marks, total FROM marks WHERE book=? GROUP BY chapter ORDER BY chapter ASC", arrayOf(book.toString()))
-//        if (cursor.moveToFirst()) {
-//            do {
-//                val chapter = cursor.getInt(0)
-//                val highestMark = cursor.getInt(1)
-//                val total = cursor.getInt(2)
-//                results.add(Triple(chapter, highestMark, total))
-//            } while (cursor.moveToNext())
-//        }
-//        cursor.close()
-//        return results
-//    }
     fun getLogosSyllabus():List<Triple<String,String,Int>>{
         val db=readableDatabase
         val syllabusList= mutableListOf<Triple<String,String,Int>>()

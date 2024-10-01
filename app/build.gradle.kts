@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "in.ecsolution.logosquiz"
-    compileSdk = 35
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "in.ecsolution.logosquiz"
         minSdk = 26
-        targetSdk = 35
+        targetSdk = 34
         versionCode = 4
         versionName = "2.1.0"
 
