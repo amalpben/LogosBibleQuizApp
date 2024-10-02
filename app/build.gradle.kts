@@ -5,14 +5,14 @@ plugins {
 
 android {
     namespace = "in.ecsolution.logosquiz"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "in.ecsolution.logosquiz"
         minSdk = 26
-        targetSdk = 34
-        versionCode = 4
-        versionName = "2.1.0"
+        targetSdk = 35
+        versionCode = 5
+        versionName = "2.1.1"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }

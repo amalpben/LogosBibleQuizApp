@@ -23,7 +23,9 @@ import androidx.work.Constraints
 import androidx.work.NetworkType
 import androidx.work.OneTimeWorkRequestBuilder
 import androidx.work.WorkManager
+import kotlinx.coroutines.DelicateCoroutinesApi
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import java.util.Calendar
@@ -57,6 +59,7 @@ class HomePageActivity : AppCompatActivity() {
 
     private var currentDate:Int =0
 
+    @OptIn(DelicateCoroutinesApi::class)
     override fun onCreate(savedInstanceState: Bundle?) {
         enableEdgeToEdge()
         super.onCreate(savedInstanceState)
@@ -64,6 +67,45 @@ class HomePageActivity : AppCompatActivity() {
         val windowInsetsController = WindowCompat.getInsetsController(window, window.decorView)
         windowInsetsController.systemBarsBehavior = WindowInsetsControllerCompat.BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE
         windowInsetsController.hide(WindowInsetsCompat.Type.systemBars())
+
+        val dataUpdater = DataUpdater(this@HomePageActivity)
+        if(!dataUpdater.isOneTimeCodeExecuted()){
+            Toast.makeText(this@HomePageActivity, "Downloading Assets", Toast.LENGTH_SHORT).show()
+            val overlayLogin = findViewById<RelativeLayout>(R.id.loading)
+            overlayLogin.visibility = View.VISIBLE
+            if (this.isInternetAvailable()) {
+                GlobalScope.launch(Dispatchers.IO) {
+                    // Execute updates sequentially
+                    val questionsUpdateSuccess = dataUpdater.updateQuestions()
+                    val booksUpdateSuccess = dataUpdater.updateBooks()
+                    val syllabusUpdateSuccess = dataUpdater.updateSyllabus()
+                    val allSuccessful =questionsUpdateSuccess && booksUpdateSuccess && syllabusUpdateSuccess
+                    withContext(Dispatchers.Main) {
+                        if (allSuccessful) {
+                            // Run the one-time code only after all updates have succeeded
+                            if (!dataUpdater.isOneTimeCodeExecuted()) {
+                                dataUpdater.runOneTimeCode()
+                                dataUpdater.setOneTimeCodeExecuted()
+                                overlayLogin.visibility = View.GONE
+                            }
+                        } else {
+                            Toast.makeText(
+                                this@HomePageActivity,
+                                "Download Failed",
+                                Toast.LENGTH_SHORT
+                            ).show()
+                            overlayLogin.visibility = View.GONE
+                            quizDbHelper = QuizDbHelper.getInstance(this@HomePageActivity)
+                            quizDbHelper.resetTables()
+                        }
+                    }
+                }
+            }
+            else{
+                overlayLogin.visibility = View.GONE
+                Toast.makeText(this, "No Internet Connection, Some features may not work", Toast.LENGTH_SHORT).show()
+            }
+        }
 
         //initialize views
         btnPlayLogos = findViewById(R.id.playLogos)
@@ -339,6 +381,4 @@ class HomePageActivity : AppCompatActivity() {
         }
         return (calendar.timeInMillis / (1000 * 60 * 60 * 24)).toInt()
     }
-
-
 }

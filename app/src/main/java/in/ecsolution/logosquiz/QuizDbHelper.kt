@@ -41,6 +41,7 @@ class QuizDbHelper private constructor(context: Context) : SQLiteOpenHelper(cont
             db.execSQL("DROP TABLE IF EXISTS marks")
             db.execSQL("DROP TABLE IF EXISTS syllabus")
             db.execSQL("DROP TABLE IF EXISTS star")
+            db.execSQL("DROP TABLE IF EXISTS books")
             onCreate(db)
         }
     }
@@ -77,23 +78,23 @@ class QuizDbHelper private constructor(context: Context) : SQLiteOpenHelper(cont
         db.execSQL("UPDATE questions SET correct=1 WHERE id=?", arrayOf(questionId.toString()))
     }
     //get count of questions viewed
-    fun getCount():Int{
-        val db=readableDatabase
-        val cursor=db.rawQuery("SELECT COUNT(*) FROM questions WHERE viewStatus=1", null)
-        cursor.moveToFirst()
-        val count=cursor.getInt(0)
-        cursor.close()
-        return count
-    }
-    //get count of questions answered correctly
-    fun getCorrectCount():Int{
-        val db=readableDatabase
-        val cursor=db.rawQuery("SELECT COUNT(*) FROM questions WHERE correct=1", null)
-        cursor.moveToFirst()
-        val count=cursor.getInt(0)
-        cursor.close()
-        return count
-    }
+//    fun getCount():Int{
+//        val db=readableDatabase
+//        val cursor=db.rawQuery("SELECT COUNT(*) FROM questions WHERE viewStatus=1", null)
+//        cursor.moveToFirst()
+//        val count=cursor.getInt(0)
+//        cursor.close()
+//        return count
+//    }
+//    //get count of questions answered correctly
+//    fun getCorrectCount():Int{
+//        val db=readableDatabase
+//        val cursor=db.rawQuery("SELECT COUNT(*) FROM questions WHERE correct=1", null)
+//        cursor.moveToFirst()
+//        val count=cursor.getInt(0)
+//        cursor.close()
+//        return count
+//    }
     //get max of question id
     fun getMaxId():Int{
         val db=readableDatabase
@@ -106,14 +107,14 @@ class QuizDbHelper private constructor(context: Context) : SQLiteOpenHelper(cont
         return maxId
     }
     //count of question
-    fun totalNumberOfQuestions():Int{
-        val db=readableDatabase
-        val cursor=db.rawQuery("SELECT COUNT(*) FROM questions", null)
-        cursor.moveToFirst()
-        val qCount=cursor.getInt(0)
-        cursor.close()
-        return qCount
-    }
+//    fun totalNumberOfQuestions():Int{
+//        val db=readableDatabase
+//        val cursor=db.rawQuery("SELECT COUNT(*) FROM questions", null)
+//        cursor.moveToFirst()
+//        val qCount=cursor.getInt(0)
+//        cursor.close()
+//        return qCount
+//    }
     //total marks Insert
     fun insertTotalMarks(mark:Int,chapter:Int,book:Int,total:Int){
         val db=writableDatabase
