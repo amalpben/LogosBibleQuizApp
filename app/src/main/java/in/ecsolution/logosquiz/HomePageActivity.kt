@@ -23,6 +23,7 @@ import androidx.work.Constraints
 import androidx.work.NetworkType
 import androidx.work.OneTimeWorkRequestBuilder
 import androidx.work.WorkManager
+import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.DelicateCoroutinesApi
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
@@ -68,6 +69,7 @@ class HomePageActivity : AppCompatActivity() {
         windowInsetsController.systemBarsBehavior = WindowInsetsControllerCompat.BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE
         windowInsetsController.hide(WindowInsetsCompat.Type.systemBars())
 
+        //This is a one time update request for on `APP UPDATE`.
         val dataUpdater = DataUpdater(this@HomePageActivity)
         if(!dataUpdater.isOneTimeCodeExecuted()){
             Toast.makeText(this@HomePageActivity, "Downloading Assets", Toast.LENGTH_SHORT).show()
@@ -147,21 +149,25 @@ class HomePageActivity : AppCompatActivity() {
         val ifDownloadRequired=sharedPreferences.getBoolean("download_required", true)
         val todayInDays = TimeUnit.MILLISECONDS.toDays(Date().time).toInt()
         val lastDownloadDate=sharedPreferences.getInt("last_download_date", todayInDays)
-        if(ifDownloadRequired){
+        if(ifDownloadRequired && GlobalValues.isNewQuestionsAvailable){
             if(lastDownloadDate<(todayInDays)){
                 if(quizDbHelper.ifSomeChapterHasNoQuestions()){
-                    sharedPreferences.edit()?.putInt("last_download_date", todayInDays)?.apply()
-                    val constraints = Constraints.Builder()
-                        .setRequiredNetworkType(NetworkType.CONNECTED) // Requires an active internet connection
-                        .build()
-                    val workRequest = OneTimeWorkRequestBuilder<WorkerDownloadQuestionsDaily>().setConstraints(constraints).build()
-                    WorkManager.getInstance(this).enqueue(workRequest)
+                    Toast.makeText(this@HomePageActivity, "Downloading New Questions", Toast.LENGTH_SHORT).show()
+                    CoroutineScope(Dispatchers.IO).launch {
+                        if (isInternetAvailable()) {
+                            if(DataUpdater(applicationContext).updateQuestions()){
+                                sharedPreferences.edit()?.putInt("last_download_date", todayInDays)?.apply()
+                                val dbHelper=QuizDbHelper.getInstance(applicationContext)
+                                dbHelper.updateQuestionCount()
+                                GlobalValues.isNewQuestionsAvailable=false
+                            }
+                        }
+                    }
                 } else{
                     sharedPreferences.edit().putBoolean("download_required", false).apply()
                 }
             }
         }
-
         val starCountInAllChapter=quizDbHelper.totalStarsInLogos()
         txtTotalStars.text=starCountInAllChapter.toString()
 

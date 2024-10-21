@@ -278,6 +278,7 @@ class GeneralQuizActivity : AppCompatActivity() {
             }
         }
     }
+    @OptIn(DelicateCoroutinesApi::class)
     private fun weeklyQuiz(){
         btnWeeklyQuiz=findViewById(R.id.weeklyQuizBtn)
         val weeklyQuizDateTxt=findViewById<TextView>(R.id.weeklyQuizDate)

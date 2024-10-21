@@ -35,7 +35,7 @@
             android:layout_centerVertical="true"
             android:text="SYLLABUS"
             android:textColor="@color/secondary"
-            android:textSize="24sp"
+            android:textSize="24dp"
             android:paddingHorizontal="32dp"
             android:paddingVertical="8dp"
             android:fontFamily="@font/aerospace_bold"

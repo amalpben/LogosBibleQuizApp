@@ -163,6 +163,7 @@ class QuizActivity : AppCompatActivity() {
             option2Txt.text = question.opt2
             option3Txt.text = question.opt3
             option4Txt.text = question.opt4
+            if(type=="logos")
             dbHelper.updateViewStatus(question.id)
             resetOptions()
             startTimer()
