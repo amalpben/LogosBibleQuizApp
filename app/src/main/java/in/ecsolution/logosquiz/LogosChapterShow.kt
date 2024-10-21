@@ -1,6 +1,8 @@
 package `in`.ecsolution.logosquiz
 
+import android.content.Context
 import android.content.Intent
+import android.content.res.Configuration
 import android.media.MediaPlayer
 import android.os.Bundle
 import android.view.Gravity
@@ -262,5 +264,15 @@ class LogosChapterShow : AppCompatActivity() {
 
             stopService(Intent(this, MusicService::class.java))
         }
+    }
+    override fun attachBaseContext(newBase: Context?) {
+        val configuration = Configuration(newBase?.resources?.configuration)
+        configuration.fontScale = 1.0f // Set font scale to 1.0 (no scaling)
+
+        // Apply the updated configuration to the context
+        val context = newBase?.createConfigurationContext(configuration)
+
+        // Pass the adjusted context to the super method
+        super.attachBaseContext(context)
     }
 }

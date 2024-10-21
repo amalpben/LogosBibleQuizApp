@@ -28,8 +28,11 @@
             android:layout_centerInParent="true"
             android:fontFamily="@font/aerospace_bold"
             android:text="GENERAL QUIZ"
-            android:textColor="@color/white"
-            android:textSize="18sp" />
+            android:textColor="@color/secondary"
+            android:textSize="18dp"
+            android:paddingHorizontal="32dp"
+            android:paddingVertical="4dp"
+            android:background="@drawable/bg_white_all_round"/>
     </RelativeLayout>
 
     <LinearLayout

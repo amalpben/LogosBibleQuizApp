@@ -1,8 +1,10 @@
 package `in`.ecsolution.logosquiz
 
 import android.app.AlertDialog
+import android.content.Context
 import android.content.Intent
 import android.content.SharedPreferences
+import android.content.res.Configuration
 import android.media.MediaPlayer
 import android.os.Bundle
 import android.view.View
@@ -386,5 +388,15 @@ class HomePageActivity : AppCompatActivity() {
             calendar.add(Calendar.DAY_OF_YEAR, daysUntilNextSunday) // Move to the next Sunday
         }
         return (calendar.timeInMillis / (1000 * 60 * 60 * 24)).toInt()
+    }
+    override fun attachBaseContext(newBase: Context?) {
+        val configuration = Configuration(newBase?.resources?.configuration)
+        configuration.fontScale = 1.0f // Set font scale to 1.0 (no scaling)
+
+        // Apply the updated configuration to the context
+        val context = newBase?.createConfigurationContext(configuration)
+
+        // Pass the adjusted context to the super method
+        super.attachBaseContext(context)
     }
 }

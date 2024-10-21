@@ -1,6 +1,8 @@
 package `in`.ecsolution.logosquiz
 
+import android.content.Context
 import android.content.Intent
+import android.content.res.Configuration
 import android.media.MediaPlayer
 import android.os.Bundle
 import android.view.Gravity
@@ -17,6 +19,7 @@ import androidx.core.view.WindowCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.WindowInsetsControllerCompat
 
+
 class SyllabusActivity : AppCompatActivity() {
     private lateinit var clickSound: MediaPlayer
     private lateinit var btnHome: ImageButton
@@ -25,6 +28,7 @@ class SyllabusActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
+
         setContentView(R.layout.activity_syllabus)
         val windowInsetsController = WindowCompat.getInsetsController(window, window.decorView)
         windowInsetsController.systemBarsBehavior = WindowInsetsControllerCompat.BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE
@@ -136,6 +140,16 @@ class SyllabusActivity : AppCompatActivity() {
         else{
             stopService(Intent(this, MusicService::class.java))
         }
+    }
+    override fun attachBaseContext(newBase: Context?) {
+        val configuration = Configuration(newBase?.resources?.configuration)
+        configuration.fontScale = 1.0f // Set font scale to 1.0 (no scaling)
+
+        // Apply the updated configuration to the context
+        val context = newBase?.createConfigurationContext(configuration)
+
+        // Pass the adjusted context to the super method
+        super.attachBaseContext(context)
     }
 
 }
