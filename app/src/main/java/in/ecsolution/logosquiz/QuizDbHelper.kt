@@ -255,7 +255,7 @@ class QuizDbHelper private constructor(context: Context) : SQLiteOpenHelper(cont
         cursor.moveToFirst()
         val count=cursor.getInt(0)
         cursor.close()
-        return count>=0
+        return count>0
     }
     fun updateQuestionCount(){
         val db=writableDatabase

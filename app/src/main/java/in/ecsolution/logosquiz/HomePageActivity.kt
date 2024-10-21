@@ -7,6 +7,7 @@ import android.content.SharedPreferences
 import android.content.res.Configuration
 import android.media.MediaPlayer
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.widget.ImageButton
 import android.widget.RelativeLayout
@@ -152,7 +153,9 @@ class HomePageActivity : AppCompatActivity() {
         val todayInDays = TimeUnit.MILLISECONDS.toDays(Date().time).toInt()
         val lastDownloadDate=sharedPreferences.getInt("last_download_date", todayInDays)
         if(ifDownloadRequired && GlobalValues.isNewQuestionsAvailable){
+            Log.d("NewQuestions",ifDownloadRequired.toString())
             if(lastDownloadDate<(todayInDays)){
+                Log.d("NewQuestions","Not downloaded today")
                 if(quizDbHelper.ifSomeChapterHasNoQuestions()){
                     Toast.makeText(this@HomePageActivity, "Downloading New Questions", Toast.LENGTH_SHORT).show()
                     CoroutineScope(Dispatchers.IO).launch {
