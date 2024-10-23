@@ -19,12 +19,9 @@ class WorkerUpOrDownQuestionsWeekly(
         return withContext(Dispatchers.IO) {
             if (DataUpdater(applicationContext).weeklyUpdateQuestionsLogos()) {
                 DataUpdater(applicationContext).weeklyDownloadQuestionsLogos()
-                if(GlobalValues.isNewQuestionsAvailable){
-                    GlobalValues.isNewQuestionsAvailable=false
-                    val dbHelper=QuizDbHelper.getInstance(applicationContext)
-                    dbHelper.updateQuestionCount()
-                    sendSuccessNotification()
-                }
+                val dbHelper=QuizDbHelper.getInstance(applicationContext)
+                dbHelper.updateQuestionCount()
+                sendSuccessNotification()
                 Result.success()
             } else {
                 Result.failure()

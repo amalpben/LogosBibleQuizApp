@@ -90,18 +90,9 @@ fun scheduleGenQuizNotifications(context: Context) {
         .setInitialDelay(calculateInitialDelay(8, 0), TimeUnit.MILLISECONDS)
         .setConstraints(constraints)
         .build()
-    // Schedule for 6 PM
-    val workRequest6PM = PeriodicWorkRequestBuilder<WorkerGenQuizNotification>(1, TimeUnit.DAYS)
-        .setInitialDelay(calculateInitialDelay(18, 0), TimeUnit.MILLISECONDS)
-        .setConstraints(constraints)
-        .build()
-
     // Enqueue both workers
     WorkManager.getInstance(context).enqueueUniquePeriodicWork(
         "QuizNotification8AM", ExistingPeriodicWorkPolicy.CANCEL_AND_REENQUEUE, workRequest8AM
-    )
-    WorkManager.getInstance(context).enqueueUniquePeriodicWork(
-        "QuizNotification6PM", ExistingPeriodicWorkPolicy.CANCEL_AND_REENQUEUE, workRequest6PM
     )
 }
 

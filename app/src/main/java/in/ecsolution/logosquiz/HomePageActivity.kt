@@ -7,7 +7,6 @@ import android.content.SharedPreferences
 import android.content.res.Configuration
 import android.media.MediaPlayer
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import android.widget.ImageButton
 import android.widget.RelativeLayout
@@ -22,10 +21,6 @@ import androidx.core.view.WindowCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.WindowInsetsControllerCompat
 import androidx.lifecycle.lifecycleScope
-import androidx.work.Constraints
-import androidx.work.NetworkType
-import androidx.work.OneTimeWorkRequestBuilder
-import androidx.work.WorkManager
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.DelicateCoroutinesApi
 import kotlinx.coroutines.Dispatchers
@@ -152,19 +147,15 @@ class HomePageActivity : AppCompatActivity() {
         val ifDownloadRequired=sharedPreferences.getBoolean("download_required", true)
         val todayInDays = TimeUnit.MILLISECONDS.toDays(Date().time).toInt()
         val lastDownloadDate=sharedPreferences.getInt("last_download_date", todayInDays)
-        if(ifDownloadRequired && GlobalValues.isNewQuestionsAvailable){
-            Log.d("NewQuestions",ifDownloadRequired.toString())
-            if(lastDownloadDate<(todayInDays)){
-                Log.d("NewQuestions","Not downloaded today")
+        if(ifDownloadRequired){
+            if(lastDownloadDate < todayInDays){
                 if(quizDbHelper.ifSomeChapterHasNoQuestions()){
-                    Toast.makeText(this@HomePageActivity, "Downloading New Questions", Toast.LENGTH_SHORT).show()
                     CoroutineScope(Dispatchers.IO).launch {
                         if (isInternetAvailable()) {
                             if(DataUpdater(applicationContext).updateQuestions()){
                                 sharedPreferences.edit()?.putInt("last_download_date", todayInDays)?.apply()
                                 val dbHelper=QuizDbHelper.getInstance(applicationContext)
                                 dbHelper.updateQuestionCount()
-                                GlobalValues.isNewQuestionsAvailable=false
                             }
                         }
                     }
