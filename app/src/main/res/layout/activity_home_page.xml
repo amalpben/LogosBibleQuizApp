@@ -128,7 +128,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/aerospace_bold"
+            android:fontFamily="@font/acme_regular"
             android:paddingVertical="10dp"
             android:paddingHorizontal="4dp"
             android:text="Total Stars"
@@ -139,7 +139,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="55"
-            android:fontFamily="@font/aerospace_bold"
+            android:fontFamily="@font/acme_regular"
             android:textSize="16sp"
             android:paddingEnd="16dp"
             android:textColor="@color/tertiary"/>
@@ -158,17 +158,17 @@
         <TextView
             android:id="@+id/playLogos"
             style="@style/homeButtonMain"
-            android:text="LOGOS QUIZ" />
+            android:text="Logos Quiz" />
 
         <TextView
             android:id="@+id/syllabusLogos"
             style="@style/homeButtonMain"
-            android:text="SYLLABUS" />
+            android:text="Syllabus" />
 
         <TextView
             android:id="@+id/playGeneral"
             style="@style/homeButtonMain"
-            android:text="GENERAL QUIZ" />
+            android:text="General Quiz" />
     </LinearLayout>
 
     <RelativeLayout

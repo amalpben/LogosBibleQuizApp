@@ -237,7 +237,7 @@ class DataUpdater(private val context: Context) {
     fun runOneTimeCode() {
         dbHelper.createDataOfStar()
         scheduleWeeklyWorker(context)
-        scheduleGenQuizNotifications(context)
+//        scheduleGenQuizNotifications(context)
     }
 
 
